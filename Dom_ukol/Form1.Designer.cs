@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -94,9 +95,17 @@
             // 
             // imageList1
             // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Snímek obrazovky_20221001_092551.png");
+            this.imageList1.Images.SetKeyName(1, "Snímek obrazovky_20221001_174105.png");
+            this.imageList1.Images.SetKeyName(2, "Snímek obrazovky_20221001_174239.png");
+            this.imageList1.Images.SetKeyName(3, "Snímek obrazovky_20221001_185636.png");
+            this.imageList1.Images.SetKeyName(4, "Snímek obrazovky_20221001_185815.png");
+            this.imageList1.Images.SetKeyName(5, "Snímek obrazovky_20221001_185828.png");
+            this.imageList1.Images.SetKeyName(6, "Snímek obrazovky_20221001_220842.png");
+            this.imageList1.Images.SetKeyName(7, "Snímek obrazovky_20221001_225330.png");
+            this.imageList1.Images.SetKeyName(8, "Snímek obrazovky_20221001_233406.png");
             // 
             // label2
             // 
