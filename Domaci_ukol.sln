@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dom_ukol", "Dom_ukol\Dom_ukol.csproj", "{FEEB4DFB-BDA2-43DE-A4FC-D2CA558AB71F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEEB4DFB-BDA2-43DE-A4FC-D2CA558AB71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEEB4DFB-BDA2-43DE-A4FC-D2CA558AB71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEEB4DFB-BDA2-43DE-A4FC-D2CA558AB71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEEB4DFB-BDA2-43DE-A4FC-D2CA558AB71F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31C71887-75DF-4614-B8EA-E2968BC5A560}
+	EndGlobalSection
+EndGlobal
