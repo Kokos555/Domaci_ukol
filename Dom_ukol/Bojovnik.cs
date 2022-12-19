@@ -10,19 +10,19 @@ namespace Dom_ukol
     class Bojovnik
     {
         ///Jmeno bojovnika
-        private string jmeno;
+        protected string jmeno;
         ///Život v HP
-        private int zivot;
+        protected int zivot;
         ///Útok v HP
-        private int utok;
+        protected int utok;
         ///Obrana v HP
-        private int obrana;
+        protected int obrana;
         /// Instance hrací kostky
-        private Kostka kostka;
+        protected Kostka kostka;
         ///Zprava
         private string zprava;
 
-        private void NastavZpravu(string zprava)
+        protected void NastavZpravu(string zprava)
         {
            this.zprava = zprava;
         }
@@ -83,7 +83,7 @@ namespace Dom_ukol
             }
         }
 
-        public void Utoc(Bojovnik souper)
+        public virtual void Utoc(Bojovnik souper)
         {
             int uder = utok + kostka.Hod();
             NastavZpravu(string.Format($"{jmeno} útočí s úderem za {uder} HP."));
