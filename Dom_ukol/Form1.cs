@@ -27,8 +27,9 @@ namespace Dom_ukol
             bojovnik1.GrafickyZivot(label2, progressBar1);
 
             string jmenoBojovnika2 = textBox2.Text;
-            Bojovnik bojovnik2 = new Mag(jmenoBojovnika2, 6, 15, 12, kostka,30,45);
+            Bojovnik bojovnik2 = new Bojovnik(jmenoBojovnika2, 6, 15, 12, kostka);
             bojovnik2.GrafickyZivot(label4, progressBar2);
+            
 
             Bojovnik b1 = bojovnik1;
             Bojovnik b2 = bojovnik2;
