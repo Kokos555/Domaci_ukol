@@ -22,7 +22,7 @@ namespace Dom_ukol
         ///Zprava
         private string zprava;
 
-        protected void NastavZpravu(string zprava)
+        public void NastavZpravu(string zprava)
         {
            this.zprava = zprava;
         }

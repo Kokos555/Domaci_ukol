@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30413.136
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dom_ukol", "Dom_ukol\Dom_ukol.csproj", "{FEEB4DFB-BDA2-43DE-A4FC-D2CA558AB71F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dom_ukol_2", "Dom_ukol_2\Dom_ukol_2.csproj", "{DD66EABD-2781-4335-B195-8BEB66B7D255}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FEEB4DFB-BDA2-43DE-A4FC-D2CA558AB71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEEB4DFB-BDA2-43DE-A4FC-D2CA558AB71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEEB4DFB-BDA2-43DE-A4FC-D2CA558AB71F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD66EABD-2781-4335-B195-8BEB66B7D255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD66EABD-2781-4335-B195-8BEB66B7D255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD66EABD-2781-4335-B195-8BEB66B7D255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD66EABD-2781-4335-B195-8BEB66B7D255}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
