@@ -51,7 +51,7 @@
             // progressBar2
             // 
             this.progressBar2.Location = new System.Drawing.Point(819, 109);
-            this.progressBar2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar2.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar2.Name = "progressBar2";
             this.progressBar2.Size = new System.Drawing.Size(75, 19);
             this.progressBar2.TabIndex = 25;
@@ -68,7 +68,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(794, 41);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 23;
@@ -76,16 +76,16 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(637, 46);
+            this.label3.Location = new System.Drawing.Point(671, 48);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(156, 13);
+            this.label3.Size = new System.Drawing.Size(94, 13);
             this.label3.TabIndex = 22;
-            this.label3.Text = "Zadej jmeno druhého bojovnika";
+            this.label3.Text = "Zadej jmeno mága";
             // 
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(234, 127);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(75, 19);
             this.progressBar1.TabIndex = 21;
@@ -134,7 +134,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(503, 505);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 19);
             this.button1.TabIndex = 27;
@@ -189,7 +189,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);

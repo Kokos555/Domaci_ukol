@@ -66,9 +66,9 @@ namespace Dom_ukol
         private void Form1_Load(object sender, EventArgs e)
         {
             Random obr = new Random();
-            int cisloObr = obr.Next(0, 5);
+            int cisloObr = obr.Next(0, 7);
             pictureBox1.Image = imageList1.Images[cisloObr];
-            cisloObr = obr.Next(0, 5);
+            cisloObr = obr.Next(0, 7);
             pictureBox2.Image = imageList1.Images[cisloObr];
 
         }

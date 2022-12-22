@@ -76,25 +76,10 @@ namespace Dom_ukol_2
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            int cisloObr;
             Random obr = new Random();
-            if (bojovnik1 is Mag) { 
-                pictureBox1.Image = imageList1.Images[0];
-            }
-            else
-            {
-                cisloObr = obr.Next(1, 8);
-                pictureBox1.Image = imageList1.Images[cisloObr];
-            }
-            if (bojovnik2 is Mag) { 
-                pictureBox2.Image = imageList1.Images[0];
-            }
-            else
-            {
-                cisloObr = obr.Next(1, 8);
-                pictureBox2.Image = imageList1.Images[cisloObr];
-                
-            }
+            int cisloObr = obr.Next(0, 8);
+            pictureBox1.Image = imageList1.Images[cisloObr];//pictureBox1 - je pro bojovníka náhodně
+            pictureBox2.Image = imageList1.Images[0];  //zde je mag
         }
     }
 }

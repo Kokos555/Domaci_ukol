@@ -97,7 +97,8 @@
             this.imageList1.Images.SetKeyName(2, "pngwing.com (3).png");
             this.imageList1.Images.SetKeyName(3, "pngwing.com (4).png");
             this.imageList1.Images.SetKeyName(4, "pngwing.com (5).png");
-            this.imageList1.Images.SetKeyName(5, "pngwing.com.png");
+            this.imageList1.Images.SetKeyName(5, "pngwing.com (6).png");
+            this.imageList1.Images.SetKeyName(6, "pngwing.com.png");
             // 
             // label2
             // 
@@ -111,7 +112,7 @@
             // progressBar1
             // 
             this.progressBar1.Location = new System.Drawing.Point(83, 129);
-            this.progressBar1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar1.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(75, 19);
             this.progressBar1.TabIndex = 12;
@@ -128,7 +129,7 @@
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(1007, 37);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 14;
@@ -145,7 +146,7 @@
             // progressBar2
             // 
             this.progressBar2.Location = new System.Drawing.Point(1007, 129);
-            this.progressBar2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBar2.Margin = new System.Windows.Forms.Padding(2);
             this.progressBar2.Name = "progressBar2";
             this.progressBar2.Size = new System.Drawing.Size(75, 19);
             this.progressBar2.TabIndex = 16;
