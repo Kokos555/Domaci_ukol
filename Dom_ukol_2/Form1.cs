@@ -17,19 +17,18 @@ namespace Dom_ukol_2
             InitializeComponent();
         }
 
-        Bojovnik bojovnik1;
-        Bojovnik bojovnik2;
+
 
         private void button1_Click(object sender, EventArgs e)
         {
             Kostka kostka = new Kostka(10);
             string jmenoBojovnika1 = textBox1.Text;
-            bojovnik1 = new Bojovnik(jmenoBojovnika1, 100, 20, 10, kostka);
+            Bojovnik bojovnik1 = new Bojovnik(jmenoBojovnika1, 100, 20, 10, kostka);
 
             bojovnik1.GrafickyZivot(label2, progressBar1);
 
             string jmenoBojovnika2 = textBox2.Text;
-            bojovnik2 = new Mag(jmenoBojovnika2, 100, 15, 12, kostka,30,45);
+            Bojovnik bojovnik2 = new Mag(jmenoBojovnika2, 100, 15, 12, kostka,30,45);
             bojovnik2.GrafickyZivot(label4, progressBar2);
 
 
@@ -77,7 +76,7 @@ namespace Dom_ukol_2
         private void Form1_Load(object sender, EventArgs e)
         {
             Random obr = new Random();
-            int cisloObr = obr.Next(0, 8);
+            int cisloObr = obr.Next(1, 8);
             pictureBox1.Image = imageList1.Images[cisloObr];//pictureBox1 - je pro bojovníka náhodně
             pictureBox2.Image = imageList1.Images[0];  //zde je mag
         }
